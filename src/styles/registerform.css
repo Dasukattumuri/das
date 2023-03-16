@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.redister-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgb(166, 2, 248),skyblue);
+}
+
+
+
+
+.redister-container .register {
+    width: 65%;
+    height: 65vh;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem .2rem rgba(0, 0, 0, 0.598);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: white;
+}
+.redister-container .formm{
+    width: 19rem;
+    height: 55vh;
+    /* border: 1px solid; */
+    box-shadow: 0 0 1rem .1rem rgba(128, 128, 128, 0.236);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+
+
+.redister-container .register input {
+    width: 16rem;
+    height: 2.5rem;
+    border-color: rgba(128, 128, 128, 0.263);
+    border-radius: .5rem;
+    padding-left: .3rem;
+    outline: none;
+}
+
+.redister-container .register button {
+    width: 10rem;
+    color: white;
+    background-color: green;
+    margin-left: 6rem;
+    height: 2.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.redister-container .register button:active{
+  
+    color: black;
+    background-color: lightgreen;
+}

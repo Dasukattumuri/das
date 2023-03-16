@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.login-container {
+    /* display: none !important; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+
+.login-container .log {
+    width: 65%;
+    height: 65vh;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem .2rem rgba(0, 0, 0, 0.598);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: white;
+}
+
+
+.login-container .form {
+    width: 19rem;
+    height: 55vh;
+    /* border: 1px solid; */
+    box-shadow: 0 0 1rem .1rem rgba(128, 128, 128, 0.236);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    font-family: sans-serif;
+
+}
+
+.login-container .pass{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-container .check{
+    display: flex;
+    gap: .3rem;
+}
+
+.login-container span{
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: .9rem;
+}
+
+.login-container .input::placeholder{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.445);
+font-size: .8rem;
+}
+.login-container .input{
+    width: 15rem;
+    height: 2.2rem;
+    border-color: rgba(128, 128, 128, 0.263);
+    border-radius: .5rem;
+    padding-left: .3rem;
+    outline: none;
+}
+.login-container label{
+    font-weight: bold;
+    /* font-size: rem; */
+}
+.login-container p{
+    color: rgba(0, 0, 0, 0.471);
+    font-size: .8rem;
+}
+
+.login-container h3{
+    font-size: 1.8rem;
+}
+
+.login-container button{
+    width: 15rem;
+    height: 2.2rem;
+   border: none;
+    border-radius: .5rem;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+
+.login-container button:active{
+    background-color: rgb(168, 101, 230);
+    color: black;
+}
